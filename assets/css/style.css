@@ -1,0 +1,10 @@
+x.linkBar {
+    float:right;
+    clear:right;
+    margin:0px, 45px, 0px, 0px;
+}
+
+.navbar {
+    padding: 0px;
+    margin: 45px;
+}
