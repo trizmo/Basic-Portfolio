@@ -8,7 +8,6 @@
     margin: auto;
     clear: both;
     color: red;
-    xborder-bottom: solid black 5px;
     height: 100px;
     width: 960px;
 
@@ -21,7 +20,7 @@
 
 .nameLogo {
     float: left;
-    background-color: black;
+    background-color: blue;
     padding: 0px 25px 0px 25px
 }
 
