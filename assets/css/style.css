@@ -1,10 +1,44 @@
-x.linkBar {
-    float:right;
-    clear:right;
-    margin:0px, 45px, 0px, 0px;
+.linkBar {
+    float: right;
+    margin: 35px 0px 0px 0px;
 }
 
 .navbar {
     padding: 0px;
-    margin: 45px;
+    margin: 0px;
+    clear: both;
+    color: red;
+    border-bottom: solid black 5px;
+    height: 100px;
+}
+
+.nameLogo {
+    float: left;
+}
+
+.mainContent {
+    clear: both;
+}
+
+.profileImage{
+    width: 150px;
+    height: 150px;
+    float:left;
+    margin: 0px 20px 0px 0px;
+}
+
+hr {
+    width:90%;
+}
+
+.footer {
+    height: 150px;
+    border-top: solid black 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+.endNote {
+    margin: 25px 0px 0px 0px;
+    color: red;
+    text-align: center;
 }
