@@ -1,38 +1,53 @@
 .linkBar {
     float: right;
-    margin: 35px 0px 0px 0px;
+    margin: 35px 0px 0px 60px;
+
 }
 
 .navbar {
     padding: 0px;
     margin: auto;
+    margin-bottom: -21px;
     clear: both;
-    color: red;
     height: 100px;
-    width: 960px;
+    width: 800px;
 
 }
 
 .header {
-    border-bottom: solid black 5px;
+    border-bottom: solid #cccccc 2px;
+    background-color: white;
 
 }
 
 .nameLogo {
     float: left;
-    background-color: blue;
+    background-color: #4aaaa5;
     padding: 0px 25px 0px 25px
+}
+
+.container {
+    padding: 35px;
+    border: solid #cccccc 1px;
+    /* margin: 60px; */
+    margin: auto;
+    margin-top: 60px;
+    max-width: 800px;
+    background-color: #F8F9F9;
 }
 
 .mainContent {
     clear: both;
-    width: 960px;
+    width: 600px;
     margin: auto;
+    padding: 15px;
+    /* border-bottom: solid #cccccc 2px; */
+
 }
 
 .profileImage{
     width: 150px;
-    height: 150px;
+    height: 195px;
     float:left;
     margin: 0px 20px 0px 0px;
 }
@@ -43,12 +58,37 @@ hr {
 
 .footer {
     height: 150px;
-    border-top: solid black 5px;
+    border-top: solid #4aaaa5 4px;
     margin: 0px 0px 0px 0px;
+    background-color: #666666;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
 }
 
 .endNote {
     margin: 25px 0px 0px 0px;
-    color: red;
+    color: white;
     text-align: center;
 }
+
+.whiteText {
+    color: white;
+}
+
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+p, .specialFont {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+} 
+
+body {
+    background-image: url("../../assets/images/bg.png");
+    background-repeat: repeat;
+}
+
