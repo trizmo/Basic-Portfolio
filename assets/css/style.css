@@ -95,6 +95,7 @@ h1, h2 {
 p, .specialFont, .textTile {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    line-height: 1.75;
 } 
 
 .textTile {
