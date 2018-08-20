@@ -1,6 +1,6 @@
 .linkBar {
     float: right;
-    margin: 35px 0px 0px 60px;
+    margin: 35px -105px 0px 60px;
 
 }
 
@@ -23,6 +23,8 @@
     float: left;
     background-color: #4aaaa5;
     padding: 0px 25px 0px 25px;
+    margin: 0px 0px 0px -115px;
+
 
 }
 
@@ -54,6 +56,10 @@
     margin: 0px 20px 0px 0px;
 }
 
+.lrgft {
+    font-size: 19px;
+}
+
 hr {
     width:100%;
 }
@@ -70,7 +76,7 @@ hr {
 }
 
 .endNote {
-    margin: 15px 0px 30px 0px;
+    margin: 40px 0px 5px 0px;
     color: white;
     text-align: center;
 }
@@ -85,15 +91,20 @@ h1, h2 {
 }
 
 
-p, .specialFont {
+
+p, .specialFont, .textTile {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 } 
 
+.textTile {
+    color: #17202A;
+}
+
 body {
     background-image: url("../../assets/images/bg.png");
     background-repeat: repeat;
-    height: 800px;
+    height: 1000px;
     margin:auto;
 }
 
@@ -117,33 +128,48 @@ a:link, a:visited, a:active {
 }
 
 .tileContainer {
-    margin: auto;
+    margin: 0px 0px 500px 0px;
+}
+
+.textTile {
+    background-color: #4aaaa5;
+    opacity: 50%;
+    padding: 5px;
+    border: solid #777777 1px;
+    border-radius: 0px;
+    border-top-right-radius: 40px;
+    margin: 90px 0px 0px 0px;
+    /* display: inline; */
 }
 
 .siteTile {
     width:150px;
     height:150px;
-    background-color: red;
-    border: solid black 1px;
     clear:both;
     position: absolute;
 }
 
 .box-1 {
+    background-image: url(../images/box1.png);
+    background-size: 150px 150px;
     float: left;
     clear: left;
-    margin: 0px 0px 0px 300px;
+    margin: 15px 0px 0px 300px;
     position: relative;
 }
 
 .box-2 {
+    background-image: url(../images/box2.png);
+    background-size: 150px 150px;
     float: right;
     clear: right;
-    margin: 0px 300px 0px 0px;
+    margin: 15px 300px 0px 0px;
     position: relative;
 }
 
 .box-3 {
+    background-image: url(../images/box3.png);
+    background-size: 150px 150px;
     float: left;
     clear: left;
     margin: 10px 0px 0px 300px;
@@ -151,6 +177,8 @@ a:link, a:visited, a:active {
 }
 
 .box-4 {
+    background-image: url(../images/box4.png);
+    background-size: 150px 150px;
     float: right;
     clear: right;
     margin: 10px 300px 0px 0px;
@@ -158,6 +186,8 @@ a:link, a:visited, a:active {
 }
 
 .box-5 {
+    background-image: url(../images/box5.png);
+    background-size: 150px 150px;
     float: left;
     clear: left;
     margin: 10px 0px 0px 300px;
@@ -165,6 +195,8 @@ a:link, a:visited, a:active {
 }
 
 .box-6 {
+    background-image: url(../images/box6.png);
+    background-size: 150px 150px;
     float: right;
     clear: right;
     margin: 10px 300px 0px 0px;
