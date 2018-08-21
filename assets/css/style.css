@@ -118,6 +118,10 @@ a:link, a:visited, a:active {
     box-shadow: 2px 2px 12px #262626
 }
 
+.grow:hover {
+    padding;
+}
+
 
 .button {
     background-color: #4aaaa5;
