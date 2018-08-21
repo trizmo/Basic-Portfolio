@@ -114,6 +114,10 @@ a:link, a:visited, a:active {
     color: #777777;
 }
 
+.shadz:hover {
+    box-shadow: 2px 2px 12px #262626
+}
+
 
 .button {
     background-color: #4aaaa5;
