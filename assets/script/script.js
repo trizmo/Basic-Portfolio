@@ -1,3 +1,3 @@
 $(document).ready(funciontion() {
-    $(".box-1").addClass("animated fadeIn");
+    $(".container").addClass("animated fadeOut");
 });

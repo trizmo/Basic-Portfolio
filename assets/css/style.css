@@ -10,7 +10,7 @@
     margin-bottom: -21px;
     clear: both;
     height: 100px;
-    width: 800px;
+    width: 960px;
 
 }
 
@@ -24,7 +24,7 @@
     background-color: #4aaaa5;
     padding: 0px 25px 0px 25px;
     margin: 0px 0px 0px -115px;
-
+    /* left:0px; */
 
 }
 
@@ -118,9 +118,9 @@ a:link, a:visited, a:active {
     box-shadow: 2px 2px 12px #262626
 }
 
-.grow:hover {
-    padding;
-}
+/* .grow:hover {
+    
+} */
 
 
 .button {
