@@ -1,7 +1,7 @@
-.linkBar {
-    float: right;
-    margin: 35px -105px 0px 60px;
-
+.header {
+    border-bottom: solid #cccccc 2px;
+    background-color: white;
+    width:100%;
 }
 
 .navbar {
@@ -11,30 +11,27 @@
     clear: both;
     height: 100px;
     width: 960px;
-
 }
 
-.header {
-    border-bottom: solid #cccccc 2px;
-    background-color: white;
+.linkBar {
+    float: right;
+    margin: 25px 0px 0px 0px;
 }
 
 .nameLogo {
     float: left;
     background-color: #4aaaa5;
     padding: 0px 25px 0px 25px;
-    margin: 0px 0px 0px -115px;
-    /* left:0px; */
-
+    /* margin: 0px 0px 0px -115px; */
 }
 
 .container {
-    padding: 35px;
+    padding: 0px;
     border: solid #cccccc 1px;
     /* margin: 60px; */
     margin: auto;
     margin-top: 60px;
-    max-width: 960px;
+    max-width: 958px;
     background-color: #F8F9F9;
     
 }
@@ -43,7 +40,8 @@
     clear: both;
     width: 100%;
     margin: auto;
-    padding: 15px;
+    padding: 0px;
+    max-width: 850px;
     /* position: relative; */
     /* border-bottom: solid #cccccc 2px; */
 
@@ -81,6 +79,12 @@ hr {
     text-align: center;
 }
 
+/*ICONS AT THE BOTTOM: not really working right now */
+/* .fa-github {
+    margin:50px 0px 0px 50px;
+    float:middle;
+} */
+
 .whiteText {
     color: white;
 }
@@ -114,6 +118,7 @@ a:link, a:visited, a:active {
     color: #777777;
 }
 
+/*SHADOW FOR BUTTON HOVER*/
 .shadz:hover {
     box-shadow: 2px 2px 12px #262626
 }
@@ -136,6 +141,8 @@ a:link, a:visited, a:active {
     cursor: pointer;
 }
 
+
+/*ALL THE PORTFOLIO STUFF*/
 .tileContainer {
     margin: 0px 0px 500px 0px;
 }
