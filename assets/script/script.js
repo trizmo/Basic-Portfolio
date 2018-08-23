@@ -1,5 +1,5 @@
-$(document).ready(funciontion() {
-    $(".container").addClass("animated fadeOut");
+$(document).ready(function() {
+    $("#fader").addClass("animated fadeOut");
 });
 
 document.onclick(function() {
