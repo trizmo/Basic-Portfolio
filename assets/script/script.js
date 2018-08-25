@@ -1,4 +1,5 @@
+
 $(document).ready(function() {
-    $("#fader").addClass("animated fadeOut");
+    $("img").addClass("animated bounce");
 });
 
