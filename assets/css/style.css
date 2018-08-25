@@ -79,11 +79,15 @@ hr {
     text-align: center;
 }
 
-/*ICONS AT THE BOTTOM: not really working right now */
-/* .fa-github {
-    margin:50px 0px 0px 50px;
-    float:middle;
-} */
+/* ICONS AT THE BOTTOM: not really working right now */
+.fa-github {
+    float: right;
+    text-align: center;
+    position: relative;
+    right: 50%;
+    margin-bottom: 5px; 
+
+}
 
 .whiteText {
     color: white;
