@@ -70,6 +70,15 @@
     border-radius: 50%;
 }
 
+.bigFancy {
+    font-size: 1.5em;
+    /* font-family: 'Diplomata SC', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Tangerine', cursive;
+
+}
+
 .lrgft {
     font-size: 19px;
 }

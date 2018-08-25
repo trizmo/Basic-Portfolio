@@ -1,5 +1,4 @@
-
 $(document).ready(function() {
-    $("img").addClass("animated bounce");
+    $(".container").hide().fadeIn(500);
 });
 
