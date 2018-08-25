@@ -9,13 +9,13 @@
     margin: auto;
     margin-bottom: -21px;
     clear: both;
-    height: 100px;
+    height: 83px;
     width: 960px;
 }
 
 .linkBar {
     float: right;
-    margin: 25px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
 }
 
 .nameLogo {
@@ -40,7 +40,7 @@
     clear: both;
     width: 100%;
     margin: auto;
-    padding: 0px;
+    padding: 0px 0px 50px 0px;
     max-width: 850px;
     /* position: relative; */
     /* border-bottom: solid #cccccc 2px; */
@@ -89,6 +89,17 @@ hr {
     color: white;
 }
 
+h1 {
+    font-size: 2.0em;
+    padding: 15px 0px 15px 0px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 15px 0px 8px 0px;
+    font-weight: 600;
+}
 
 h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -117,6 +128,12 @@ a:link, a:visited, a:active {
     text-decoration: none;
     color: #777777;
 }
+
+.input-margin {
+    padding: 0px 0px 20px 0px;
+}
+
+
 
 /*SHADOW FOR BUTTON HOVER*/
 .shadz:hover {
